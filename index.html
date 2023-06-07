@@ -6,13 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/png" href="logo/logo.png">
   <title>Related Links - Activity 11</title>
   <style>
 body {
   margin: 0;
   font-family: Times New roman;
- background-color: #2a0038;
-  background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+background-color: #003d2c;
+background-image: url("https://www.transparenttextures.com/patterns/retina-wood.png");
 }
 .wrapper {
 position: relative;
@@ -22,7 +23,7 @@ position: relative;
 }
 .nav h1 {
   font-size: 50px;
-  color:#EBCD26;
+  color:#FBD5AB;
 
 }
 
@@ -33,7 +34,7 @@ position: relative;
 
 li {
   line-height: 28px;
-  color: #808000;
+  color: #FBD5AB;
   font-size:20px;
 }
 
@@ -42,10 +43,25 @@ li {
   grid-template-columns: 3% 1fr;
 }
 
-h1, .name-list {
-  display: inline-block;
-  font-family: San serif;
-}
+.main-text h1 {
+        font-family: 'Roboto', sans-serif;
+        animation-name: blink;
+        animation-duration: 2.5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes blink {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
 
 
 .upperDirectory, .lowerDirectory {
@@ -54,7 +70,7 @@ h1, .name-list {
 }
 h3 {
   margin-top: 8px;
-  color: #0091F4;
+  color: #FF6347;
 }
 
 a {
